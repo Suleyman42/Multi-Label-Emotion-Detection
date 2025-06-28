@@ -1,0 +1,15 @@
+Classification Report:
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in samples with no predicted labels. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+       anger       0.59      0.46      0.52        78
+        fear       0.78      0.88      0.83       318
+         joy       0.64      0.56      0.60       123
+     sadness       0.68      0.60      0.64       196
+    surprise       0.75      0.59      0.66       181
+
+   micro avg       0.72      0.68      0.70       896
+   macro avg       0.69      0.62      0.65       896
+weighted avg       0.72      0.68      0.69       896
+ samples avg       0.73      0.70      0.68       896

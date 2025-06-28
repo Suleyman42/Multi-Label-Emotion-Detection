@@ -1,2 +1,8 @@
-joblib
+transformers
+torch
 pandas
+scikit-learn
+clean-text
+beautifulsoup4
+neattext
+joblib
