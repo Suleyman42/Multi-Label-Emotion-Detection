@@ -60,12 +60,12 @@ def save_model(model, path):
     Speichert ein CatBoost-Modell an einem gegebenen Pfad.
     """
     model.save_model(path)
-    print(f"✅ Modell gespeichert unter: {path}")
+    print(f" Modell gespeichert unter: {path}")
 
 def load_model(path):
     """
     Lädt ein Modell-Objekt von einem gegebenen Pfad.
     """
     model = joblib.load(path)
-    print(f"✅ Modell geladen von: {path}")
+    print(f" Modell geladen von: {path}")
     return model

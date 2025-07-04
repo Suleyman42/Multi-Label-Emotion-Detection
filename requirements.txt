@@ -1,2 +1,7 @@
 joblib
 pandas
+transformers
+html
+tqdm
+torch
+torch_optimizer
